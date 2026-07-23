@@ -3,6 +3,15 @@
     <channel>
         <title>Lekon</title>
         <item>
+            <title>0.2.2</title>
+            <pubDate>Thu, 23 Jul 2026 21:38:04 +0900</pubDate>
+            <sparkle:version>1784810176</sparkle:version>
+            <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://psycoder-sup.github.io/Lekon-releases/notes/Lekon-0.2.2-1784810176.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/psycoder-sup/Lekon-releases/releases/download/v0.2.2/Lekon-0.2.2-1784810176.dmg" length="13499384" type="application/octet-stream" sparkle:edSignature="qm3q1VA2MsmtZ7Bfw7YKUZBXEs9evgxdh0SOkjBhe4wCdkraXtfGPoq2MjF8phcRaFhoLO66nVHLmujKLAgEAg=="/>
+        </item>
+        <item>
             <title>0.2.1</title>
             <pubDate>Thu, 23 Jul 2026 13:55:32 +0900</pubDate>
             <sparkle:version>1784782423</sparkle:version>
