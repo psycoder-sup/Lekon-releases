@@ -3,6 +3,15 @@
     <channel>
         <title>Lekon</title>
         <item>
+            <title>0.3.1</title>
+            <pubDate>Wed, 29 Jul 2026 14:03:58 +0900</pubDate>
+            <sparkle:version>1785301286</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://psycoder-sup.github.io/Lekon-releases/notes/Lekon-0.3.1-1785301286.html</sparkle:releaseNotesLink>
+            <enclosure url="https://github.com/psycoder-sup/Lekon-releases/releases/download/v0.3.1/Lekon-0.3.1-1785301286.dmg" length="13679421" type="application/octet-stream" sparkle:edSignature="2cEM96TU44gfI0kizcoWG+pv0FvAZWcN85Ka2vnCbAJ8bLtagzeAjJi2eqqi9/SenX+XpKm+MzgU0+X5e3FZCA=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Wed, 29 Jul 2026 13:20:24 +0900</pubDate>
             <sparkle:version>1785298670</sparkle:version>
@@ -19,15 +28,6 @@
             <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
             <sparkle:releaseNotesLink>https://psycoder-sup.github.io/Lekon-releases/notes/Lekon-0.2.2-1784810176.html</sparkle:releaseNotesLink>
             <enclosure url="https://github.com/psycoder-sup/Lekon-releases/releases/download/v0.2.2/Lekon-0.2.2-1784810176.dmg" length="13499384" type="application/octet-stream" sparkle:edSignature="qm3q1VA2MsmtZ7Bfw7YKUZBXEs9evgxdh0SOkjBhe4wCdkraXtfGPoq2MjF8phcRaFhoLO66nVHLmujKLAgEAg=="/>
-        </item>
-        <item>
-            <title>0.2.1</title>
-            <pubDate>Thu, 23 Jul 2026 13:55:32 +0900</pubDate>
-            <sparkle:version>1784782423</sparkle:version>
-            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.5</sparkle:minimumSystemVersion>
-            <sparkle:releaseNotesLink>https://psycoder-sup.github.io/Lekon-releases/notes/Lekon-0.2.1-1784782423.html</sparkle:releaseNotesLink>
-            <enclosure url="https://github.com/psycoder-sup/Lekon-releases/releases/download/v0.2.1/Lekon-0.2.1-1784782423.dmg" length="12999326" type="application/octet-stream" sparkle:edSignature="wP1CVQ0+OGzlX8lC/Wlj/NtvE9sHyHUQBEKDZjb4ks/Em9i3I4IH5Y7vDb3vBapp2iy92CavvkZuNJhKj/B/CA=="/>
         </item>
     </channel>
 </rss>
