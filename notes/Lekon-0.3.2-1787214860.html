@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Lekon 0.3.2</title>
+</head>
+<body>
+<h2>Lekon 0.3.2</h2>
+<p><strong>Tags replace contexts and labels</strong></p>
+<ul>
+<li>Contexts and labels are now one thing: <strong>Tags</strong>. A single type-in chip on every stage, on the clarify card and in Quick Capture — start a name with <code>@</code> and it reads as a context, anything else is a label. Nothing to pick, nothing to convert; your existing contexts and labels are already tags</li>
+<li>Settings manages all of them in one place — rename or delete</li>
+<li><strong>CLI heads-up</strong>: <code>lekon context …</code> is retired in favour of <code>lekon tag list|add|rm|rename</code>, and the context grammar becomes a repeatable <code>--tag</code>. The old commands now fail with a message naming their replacement rather than silently doing something else</li>
+</ul>
+<p><strong>The app keeps up with the CLI</strong></p>
+<ul>
+<li>A task added by <code>lekon add</code> — or by Claude through the MCP server — now shows up in an already-open window in well under a second. No navigating away and back, no relaunch</li>
+<li>Switching back to Lekon from another app also refreshes every list, which covers anything that wrote to your store while Lekon was in the background</li>
+</ul>
+<p><strong>Claude can drive Lekon</strong></p>
+<ul>
+<li>New <code>lekon-mcp</code> server hands your tasks and projects to Claude Code and Claude Desktop directly</li>
+<li>Settings has an Install MCP server row — pick the client and it registers itself, merging into your existing config instead of overwriting it</li>
+</ul>
+<p><strong>Clarify</strong></p>
+<ul>
+<li>Type a project or tag name that doesn't exist yet, press ⏎, and it's created and assigned on the spot — on the clarify card, the Calendar row, and the Next Actions / Waiting For / Someday / Reference project fields</li>
+<li>A clarify card's note is now editable in place</li>
+<li>Clicking outside an open PROJECT or TAGS dropdown closes it, and your click still lands where you aimed it</li>
+</ul>
+<p><strong>Inbox gauge</strong></p>
+<ul>
+<li>&quot;INBOX PROCESSED&quot; now tracks a day rather than a session: it resets at midnight, re-bases on whatever is still in your inbox, and survives a restart — so quitting the app at lunch no longer wipes the morning's progress</li>
+</ul>
+<p><strong>Fixes</strong></p>
+<ul>
+<li>Waiting For: an all-day due date never counted as overdue, however long past it was. Date-only due dates now read correctly</li>
+<li>The DEFER pill in Quick Capture and <code>lekon add --defer</code> have been withdrawn. A defer date has never affected any list, so both were reporting success and changing nothing; they'll return when there's a real design behind them</li>
+<li><code>lekon project rm --cascade</code> deletes a project's tasks along with it. Plain <code>rm</code> still keeps them and just clears the project</li>
+</ul>
+</body>
+</html>
