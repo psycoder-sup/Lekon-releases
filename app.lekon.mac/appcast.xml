@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Lekon updates (app.lekon.mac)</title>
+    <item>
+      <title>0.1.0</title>
+      <pubDate>Mon, 23 Nov 2026 06:11:14 GMT</pubDate>
+      <sparkle:version>20261123060810</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/psycoder-sup/lekon-releases/releases/download/v0.1.0/Lekon-0.1.0.dmg" length="8488649" type="application/octet-stream" sparkle:edSignature="OWRUSulG4nMknBx8xWQku6m8qyNe6e88ChSFqhBLDC+RlTVWhcBNAcH2wTaG1hRFcYEXoO5lVHcJSgdnFVySDw==" />
+    </item>
+  </channel>
+</rss>
