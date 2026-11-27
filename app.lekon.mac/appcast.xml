@@ -3,6 +3,14 @@
   <channel>
     <title>Lekon updates (app.lekon.mac)</title>
     <item>
+      <title>0.1.3</title>
+      <pubDate>Fri, 27 Nov 2026 08:46:55 GMT</pubDate>
+      <sparkle:version>20261127084519</sparkle:version>
+      <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/psycoder-sup/lekon-releases/releases/download/v0.1.3/Lekon-0.1.3.dmg" length="8716591" type="application/octet-stream" sparkle:edSignature="AI5fSNm53F+EDXZoOFWbHGGMEdqTMVf+nvy+onEESKHI6jckI1czv2M/VRxOkTNgGJEGQ/6TBqaIuoE2PCmCCA==" />
+    </item>
+    <item>
       <title>0.1.2</title>
       <pubDate>Mon, 23 Nov 2026 13:13:41 GMT</pubDate>
       <sparkle:version>20261123131217</sparkle:version>
